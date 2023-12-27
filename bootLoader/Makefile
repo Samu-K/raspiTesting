@@ -1,4 +1,4 @@
-ARMGNU ?= arm-none-eabi
+ARMGNU ?= aarch64-linux-gnu
 
 CFLAGS= -DRPI_VERSION=$(RPI_VERSION) -Wall -nostdlib -nostartfiles -ffreestanding \
 				 -Iinc -mgeneral-regs-only
